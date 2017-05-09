@@ -34,8 +34,8 @@ Using this helps to change the url to
   # after
   curl -H "accept: application/json; version=2" http://localhost:3000/articles
 
-  **version=2** has been added and the curl was simple
 ````
+  **version=2** has been added and the curl was simple
 
 ```Mime Type
 # add this initializers.mime_types.rb
@@ -49,6 +49,7 @@ Using this helps to change the url to
   # after
   curl -H "accept: application/vnd.articles+json; version=1" http://localhost:3000/articles
 
-  **vnd.articles+json** has been added and **json** removed
 ````
+  **vnd.articles+json** has been added and **json** removed
+
 [Read More](http://blog.steveklabnik.com/posts/2011-07-03-nobody-understands-rest-or-http#i_want_my_api_to_be_versioned)
